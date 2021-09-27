@@ -1,8 +1,8 @@
-FROM node
+FROM node:14.17.5
 
 MAINTAINER phael.rj@gmail.com
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
 COPY ./src/package*.json ./
 
